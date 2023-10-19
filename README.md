@@ -15,10 +15,9 @@
 
 ```mermaid
 graph LR;
-%% стрелка без текста для примера:
-A-->B;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
 
-%% жизненный цикл файлов в git:
-неотслеживаемый -- "git add (имя файла)" --> staged;
-модифицированный и не staged -- "git add" --> stage;
+%% стрелка без текста для примера: 
+  A --> B;
 ```
