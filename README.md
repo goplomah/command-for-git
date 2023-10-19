@@ -16,7 +16,7 @@
 ```mermaid
 graph LR;
   untracked -- "git add" --> staged;
-  staged -- "git commit -m 'text commit'" --> tracked/modified;
+  staged -- "git commit -m 'text commit'" --> tracked/модифицированный;
 
 %% стрелка без текста для примера: 
   A --> B;
