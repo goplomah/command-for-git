@@ -15,8 +15,8 @@
 
 ```mermaid
 graph LR;
-  untracked -- "git add" --> staged;
-  staged    -- "???"     --> tracked/comitted;
+  неотслеживаемый файл -- "git add (имя файла) --> staged;
+  staged -- "git commit -m 'текст коммита'" --> отслеживаемый файл/модифицированный;
 
 %% стрелка без текста для примера: 
   A --> B;
